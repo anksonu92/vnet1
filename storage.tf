@@ -7,6 +7,6 @@ resource "azurerm_storage_account" "storage" {
 
   network_rules {
       default_action = "Deny"
-      ip_rules = "192.168.1.31"
+      ip_rules = ["192.168.1.31"]
   }
 }
