@@ -1,4 +1,4 @@
-resource "azurerm_storage_account" "storage" {
+/*resource "azurerm_storage_account" "storage" {
   name                     = format("%s%s", "fdssdfd", "storage9553")
   resource_group_name      = var.resource_group_name
   location                 = var.location
@@ -7,6 +7,5 @@ resource "azurerm_storage_account" "storage" {
 
   network_rules {
       default_action = "Deny"
-      
   }
-}
+}*/
