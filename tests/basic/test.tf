@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   required_version = "~> 1.1"
 
   required_providers {
@@ -36,4 +36,4 @@ module "lens_vnet" {
 output "vnet" {
   value = module.lens_vnet.vnet
 
-}*/
+}

@@ -9,7 +9,7 @@ output "vnet"{
         subnet2_name=azurerm_subnet.subnet2.name
         subnet2_id=azurerm_subnet.subnet2.id
         subnet2_address_prefixes=azurerm_subnet.subnet2.address_prefixes
-        //storage_id=azurerm_storage_account.storage.id
+        storage_id=azurerm_storage_account.storage.id
         dns_name=azurerm_private_dns_zone.example.name
     }
 }
